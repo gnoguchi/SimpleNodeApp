@@ -10,7 +10,9 @@ RUN npm i -g pm2
 
 COPY package.json /usr/src/simple-node-app
 
+COPY . /usr/src/simple-node-app
+
 RUN npm i
 
-CMD npm 
+CMD npm run prod
 
