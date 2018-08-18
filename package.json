@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.15.4",
+    "mongoose": "^5.0.16",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "mocha": "^3.4.2",
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "nodemon ./app.js"
+  },
+  "author": "Gabriel Noguchi",
+  "license": "ISC"
+}
